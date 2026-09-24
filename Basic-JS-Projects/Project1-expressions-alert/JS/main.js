@@ -31,3 +31,15 @@ document.write(Sent1 + Sent2);
 //expression:
 
 console.log(3*3);
+
+//additional HTML event script
+
+function normalImg(x) {
+    x.style.height = "500px";
+    x.style.width - "auto";
+}
+
+function bigImg(x) {
+    x.style.height = "750px";
+    x.style.width = "auto";
+}
