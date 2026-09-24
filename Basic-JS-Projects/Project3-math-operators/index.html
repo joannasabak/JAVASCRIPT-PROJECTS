@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="JS/main.js"></script>
+</head>
+
+<style>
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+</style>
+
+<body>
+    <div>
+        <form onsubmit="mathFunction1(event)">
+            <p>Let's add some numbers!</p>
+            <label for="firstNumber">First number:</label>
+            <input type="number" id="firstNumber" required>
+            <label for="secondNumber">Second number:</label>
+            <input type="number" id="secondNumber" required>
+            <button type="submit">Add numbers</button>
+        </form>
+        <p id="math"></p>
+        <button onclick="mathFunction2(event)">Subtract them if you want</button>
+        <p id="math2"></p>
+        <button onclick="mathFunction3(event)">Or multiply!</button>
+        <p id="math3"></p>
+        <button onclick="mathFunction4(event)">Or even divide!</button>
+        <p id="math4"></p>
+        <button onclick="mathFunction5(event)">You can also try the number rollercoaster</button>
+        <p id="math5"></p><br>
+
+    </div>
+
+    <div>
+        <form onsubmit="mathFunction6(event)">
+            <p>Here we can try something else</p>
+            <label for="thirdNumber">Larger number:</label>
+            <input type="number" id="thirdNumber" required>
+            <label for="fourthNumber">Smaller number:</label>
+            <input type="number" id="fourthNumber" required>
+            <button type="submit">See what happens</button>
+        </form>
+        <p id="math6"></p><br>
+    </div>
+
+    <div>
+        <form onsubmit="mathFunction7(event)">
+            <p>We can also flip some numbers</p>
+            <label for="fifthNumber">Your dream number</label>
+            <input type="number" id="fifthNumber" required>
+            <button type="submit">See what happens</button>
+        </form>
+        <p id="math7"></p>
+        <button onClick="mathFunction8(event)">Your favourite number can get larger:</button>
+        <p id="math8"></p>
+        <button onClick="mathFunction9(event)">Or smaller:</button>
+        <p id="math9"></p><br>
+    </div>
+
+    <div>
+
+        <p>Today the moon and unicorns are under the ghost influence.<br>
+            They chose a special number for you.
+        </p>
+        <button onClick="mathFunction10(event)">Click to see it</button>
+        <p id="math10"></p>
+    </div>
+    
+</body>
+
+</html>
