@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="JS/main.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <p>Riders must be at least 52 cm tall to ride</p>
+        <label for="height">How tall are you?</label>
+        <input id="height" type="number" required>
+        <button type="submit" onClick="Ride_Function()">Check if you can ride</button>
+        <p id="Ride"></p>
+    </div>
+
+    <div>
+        <p>Are you old enough to vote?</p>
+        <label for="age">How old are you?</label>
+        <input id="age" type="number" required>
+        <button type="submit" onClick="Vote_Function()">Check if you can vote</button>
+        <p id="Vote"></p>
+    </div>
+
+    <div>
+        <button onClick="myFunction()">What car does Erik drive?</button>
+        <p id="Keywords_Constructors"></p>
+    </div>
+
+    <div>
+        <button onClick="another()">And what is Joanna's car?</button>
+        <p id="New_and_This"></p>
+    </div>
+
+    <div>
+        <button onClick="constructor_call()">Curious about Guillaume's climbing shoes?</button>
+        <p id="shoes"></p>
+    </div>
+
+    <div>
+        <p id="Nested_Function" onclick="nested_out()">Click me</p>
+    </div>
+</body>
+
+</html>
