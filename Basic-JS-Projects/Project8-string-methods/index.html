@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="JS/main.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <input type="text" id="first" placeholder="First part of a sentence">
+        <input type="text" id="second" placeholder="Second part of the sentence">
+        <button id="glue" onClick="glueMe()">Glue me!</button>
+        <p id="concat"></p>
+
+        <button onClick="sliceMe()">Slice your sentence</button>
+        <p id="slicer"></p>
+    </div>
+
+    <div>
+        <p>Convert this sentence to upper case:</p>
+        <button onClick="upIt()">Try yourself</button>
+        <p id="big"></p>
+    </div>
+
+    <div>
+        <p>I've been thinking about my favorite word today. <br>
+            I'm curious if you included it in your sentence?</p>
+        <button onClick="letsCheck()">Let's check!</button>
+        <p id="word"></p>
+    </div>
+
+    <div>
+        <p>Pi has many decimal points. It's useful to format it as shorter.</p>
+        <input type="number" id="prox" placeholder="Type a number">
+        <button onClick="cropMe()">Try it</button>
+        <p id="short"></p>
+
+        <p>If you're unsure how many numbers you want, I can help you round it!</p>
+        <p id="fix"></p>
+    </div>
+</body>
+
+</html>
