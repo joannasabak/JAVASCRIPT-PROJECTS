@@ -1,6 +1,3 @@
-//document write method
-document.write(typeof "vegetable");
-
 //type of
 document.getElementById("type_of").innerHTML = typeof("potato");
 
