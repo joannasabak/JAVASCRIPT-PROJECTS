@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="JS/main.js" defer></script>
+</head>
+
+<style>
+    body {
+        font-family: "Roboto", sans-serif;
+    }
+    button {
+        font-family: "Roboto", sans-serif;
+    }
+</style>
+
+<body>
+    <!-- while loop -->
+    <p id="loop"></p>
+    <button onClick="callLoop()">Click here to execute the while loop</button>
+    <br>
+    <!-- string length method -->
+    <br>
+    <button onClick="stringLen()">How many letters: string length</button>
+    <p id="string"></p>
+
+    <!-- for loop and an array -->
+    <button onClick="hungry()">What to eat? For loop with an array</button>
+    <p id="to-eat"></p>
+
+    <!-- constant -->
+    <button onClick="constantFunction()">Click here for a constant</button>
+    <p id="constant"></p>
+
+    <!-- return -->
+    <input id="first-nr" type="number" placeholder="First Number">
+    <input id="second-nr" type="number" placeholder="Second Number">
+    <button type="submit" onClick="numberSurprise()">Try the Number Surprise!</button>
+    <p id="new-nr"></p>
+
+    <br>
+    <!-- object with props and function -->
+    <p>Today's recipe is: </p>
+    <p id="recipe"></p>
+    <p id="cooking"></p>
+    <br>
+    <!-- break and continue -->
+    <p id="which-day"></p>
+    <p id="skip-month"></p>
+</body>
+
+</html>
