@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/CSS_File.css">
+</head>
+
+<body>
+    <div>
+        <p>How many seconds would you like to set your alarm for?</p>
+        <input id="seconds" value="" />
+        <button onClick="countdown()">Click here</button>
+        <p id="counter"></p>
+    </div>
+
+    <h2>Car slideshow</h2>
+    <p>Images automatically change every 2 seconds:</p>
+
+    <div class="slideshow-container">
+
+        <!-- slide 1 -->
+        <div class="slides fade">
+            <img src="./images/car1.jpg" alt="Image of a car">
+            <div class="text">
+                Cool blue car
+            </div>
+        </div>
+
+        <!-- slide 2 -->
+        <div class="slides fade">
+            <img src="./images/car2.jpg" alt="Image of a car">
+            <div class="text">
+                Stylish black car
+            </div>
+        </div>
+
+        <!-- slide 3 -->
+        <div class="slides fade">
+            <img src="./images/car3.jpg" alt="Image of a car">
+            <div class="text">
+                Speedy red car
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onClick="changeSlide(1)"></span>
+        <span class="dot" onClick="changeSlide(2)"></span>
+        <span class="dot "onClick="changeSlide(3)"></span>
+    </div>
+    
+    <script src="JS/main.js"></script>
+
+</body>
+
+</html>
