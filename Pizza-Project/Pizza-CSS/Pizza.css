@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --main-headers: #E5574B;
+    --bg: #2B2522;
+    --basic-text: #FFF8EC;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+h1 {
+    color: var(--main-headers);
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: var(--main-headers);
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 23px;
+}
+
+div {
+    font-family:  "Lato", sans-serif;
+    color: var(--basic-text);
+}
+
+#menu-BG {
+    width:600px;
+    height:470px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#frm-menu {
+    width:600px;
+    height:300px;
+}
+
+.choice-row {
+    display: flex;
+    justify-content: center;
+}
+
+#total-price {
+    width:190px;
+    height:190px;
+    margin:0 auto;
+}
+
+.left {
+    width:33%;
+    height:200px;
+}
+
+.middle {
+    width:33%;
+    height:200px;
+}
+
+.right {
+    width:33%;
+    height:200px;
+}
+
+.menu {
+    width: max-content;
+    margin-inline: auto;
+    text-align: left;
+    line-height: 1.2;
+}
+
+#show-text {
+    width:200px;
+    height:190px;
+    margin:0px auto;
+}
+
+#show-text h3 {
+    text-align: left;
+}
+
+#cart {
+    display:flex;
+    justify-content: center;
+    top: 0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btn-order {
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--main-headers);
+    color: var(--bg);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+}
+

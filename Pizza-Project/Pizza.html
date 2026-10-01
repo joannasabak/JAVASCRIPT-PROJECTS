@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta HTTP-EQUIV="Content-Type" CONTENT="text/html" ; charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Pizza Drill Demo</title>
+    <link rel="stylesheet" href="Pizza-CSS/Pizza.css">
+    <script src="Pizza-JS/Pizza.js" defer></script>
+</head>
+
+<body>
+    <div id="menu-BG">
+        <h1 style="margin: 0 0px 0 20px;">Pizza Drill Tutorial</h1>
+        <input id="btn-order" type="button" onClick="getReceipt()" value="Place Order">
+        <br>
+        <h2>Select size and toppings: </h2>
+
+        <form id="frm-menu">
+            <div class="choice-row">
+
+                <div class="menu left">
+
+                    <h3>Size:</h3>
+                    <input class="size" type="radio" name="Size" value="Personal Pizza">Personal Pizza <br>
+                    <input class="size" type="radio" name="Size" value="Small Pizza">Small Pizza <br>
+                    <input class="size" type="radio" name="Size" value="Medium Pizza">Medium Pizza <br>
+                    <input class="size" type="radio" name="Size" value="Large Pizza">Large Pizza <br>
+                    <input class="size" type="radio" name="Size" value="Extra Large Pizza">Extra Large Pizza <br>
+                </div>
+
+                <div class="menu middle">
+
+                    <h3>Toppings:</h3>
+                    <input class="toppings" type="checkbox" name="Topping" value="Mozzarella">Mozzarella <br>
+                    <input class="toppings" type="checkbox" name="Topping" value="Mushroom">Mushrooms <br>
+                    <input class="toppings" type="checkbox" name="Topping" value="Onions">Onions <br>
+                    <input class="toppings" type="checkbox" name="Topping" value="Peppers">Peppers <br>
+                    <input class="toppings" type="checkbox" name="Topping" value="Goat Cheese">Goat Cheese <br>
+                    <input class="toppings" type="checkbox" name="Topping" value="Spinach">Spinach <br>
+                </div>
+
+                <div class="menu right">
+
+                    <h3>Premium:</h3>
+                    <input class="premium" type="checkbox" name="Topping" value="Truffle Oil">Truffle Oil <br>
+                    <input class="premium" type="checkbox" name="Topping" value="Nduja">Nduja <br>
+                    <input class="premium" type="checkbox" name="Topping" value="Fried Courgettes">Fried Courgettes<br>
+                    <input class="premium" type="checkbox" name="Topping" value="Straciatella">Straciatella <br>
+                    <input class="premium" type="checkbox" name="Topping" value="Burrata">Burrata <br>
+                    <input class="premium" type="checkbox" name="Topping" value="Basil">Basil <br>
+                </div>
+
+            </div>
+            
+            <div id="cart">
+                <div id="show-text"></div>
+                <div id="total-price"></div>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
