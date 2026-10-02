@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Basic AJAX Demo</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<div class='container' id="content">
+		<h1>Sign up for our Newsletter</h1>
+		<div class="display">
+			<form>
+				<input id="fullName" placeholder="Name">
+				<input placeholder="Email">
+				<input type="button" class="btn" value="Submit" onclick="getMsg();" />
+			</form>
+		</div>
+	</div>
+
+	<div class='container' style="margin-bottom:30px;" id="replace">
+		<h1>Click the button</h1>
+		<div class="display">
+			<input type="button" style="display:block; margin: 0 auto;" class="btn" value="Press" onclick="getNew();" />
+		</div>
+	</div>
+	<script src="ajaxScript.js"></script>
+</body>
+
+</html>
