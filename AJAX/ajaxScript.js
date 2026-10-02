@@ -27,6 +27,7 @@ function getMsg() {
 
 }
 
+
 function getNew() {
     let ajaxRequest = new XMLHttpRequest(); //request object
 
