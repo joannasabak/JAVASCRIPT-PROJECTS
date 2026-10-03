@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <h1>Document Object</h1>
+    <h2>createElement() Method</h2>
+
+    <div id="add-here" style="padding:15px; background-color: antiquewhite;">
+        <h3>This is the existing element</h3>
+    </div>
+    <script>
+        //append to a document
+        const paragraph = document.createElement("p");
+        paragraph.innerText = "This text is going to be added";
+
+        document.body.appendChild(paragraph);
+
+        //append to an element
+        const addToDiv = document.createElement("p");
+        addToDiv.innerHTML = "This is a new created element";
+        
+        document.getElementById("add-here").appendChild(addToDiv);
+
+    </script>
+</body>
+</html>
