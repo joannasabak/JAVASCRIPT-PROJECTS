@@ -30,15 +30,17 @@ function getMsg() {
 
 function getNew() {
     let ajaxRequest = new XMLHttpRequest(); //request object
-
+    // prepare the request and point to the HTML file to fetch content 
     ajaxRequest.open("GET", "content.html", true);
 
+    // ajax response callback method
     ajaxRequest.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
             document.getElementById('replace').innerHTML = ajaxRequest.responseText;
         }
     }
 
+    // send the request
     ajaxRequest.send();
 
 
