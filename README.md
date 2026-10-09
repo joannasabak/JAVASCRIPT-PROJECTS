@@ -6,11 +6,11 @@ A collection of JavaScript exercises and small projects, built while studying fr
 
 | Folder | Description |
 | --- | --- |
-| [`Basic-JS-Projects`](./Basic-JS-Projects) | Core fundamentals: [variables, functions, conditionals, loops, DOM basics] |
-| [`Advanced-JS-Projects`](./Advanced-JS-Projects) | More involved exercises: [objects, events, array methods, etc.] |
+| [`Basic-JS-Projects`](./Basic-JS-Projects) | Core fundamentals: variables, functions, conditionals, loops, DOM basics |
+| [`Advanced-JS-Projects`](./Advanced-JS-Projects) | More involved exercises: objects, events, array methods, etc. |
 | [`JQuery`](./JQuery) | DOM manipulation, events and effects with jQuery |
-| [`AJAX`](./AJAX) | Fetching and displaying data from [an API / JSON file] using AJAX |
-| [`Pizza-Project`](./Pizza-Project) | [Pizza order / menu app: one-line description] |
+| [`AJAX`](./AJAX) | Fetching and displaying data from an API / JSON file using AJAX |
+| [`Pizza-Project`](./Pizza-Project) | Pizza order / menu app |
 | [`Tic-Tac-Toe`](./Tic-Tac-Toe) | Browser-based Star Wars themed Tic-Tac-Toe game |
 
 ## 🛠️ Built with
