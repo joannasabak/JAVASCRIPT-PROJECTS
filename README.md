@@ -7,8 +7,7 @@ A collection of JavaScript exercises and small projects, built while studying fr
 | Folder | Description |
 | --- | --- |
 | [`Basic-JS-Projects`](./Basic-JS-Projects) | Core fundamentals: variables, functions, conditionals, loops, DOM basics |
-| [`Advanced-JS-Projects`](./Advanced-JS-Projects) | More involved exercises: objects, events, array methods, etc. /
-Includes examples like a Calculator. |
+| [`Advanced-JS-Projects`](./Advanced-JS-Projects) | More involved exercises: objects, events, array methods, etc. <br>Includes examples like a Calculator. |
 | [`JQuery`](./JQuery) | DOM manipulation, events and effects with jQuery |
 | [`AJAX`](./AJAX) | Fetching and displaying data from an API / JSON file using AJAX |
 | [`Pizza-Project`](./Pizza-Project) | Pizza order / menu app |
